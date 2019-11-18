@@ -1,0 +1,8 @@
+<h1>Welcome to Stupid Coaching! </h1>
+<p>Our coaches are the stupidest people on Planet Earth. Dont believe us? Try it for yourself!</p>
+<br>
+<form action = "/answer" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  <input type ="text" name = "greeting" placeholder="Good Morning, Coach!">
+  <input type = "submit">
+</form>
